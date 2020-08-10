@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
+*,body,html{
+    box-sizing: border-box;
+}
+body {
+    background: #1b262c;
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.login-page {
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+}
+.web_container {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+.box_web_container {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px;
+}
+.logo_gfi {
+    width: 150px;
+    height: 80px;
+    margin: 0 auto 15px auto;
+}
+.logo_gfi img {
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.login_form {
+    width: 100%;
+}
+.field_box_login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.field_box_login label {
+    font: 15px 'Oxygen';
+    margin-bottom: 3px;
+}
+.field_box_login input {
+    border: 1px solid #b6b6b6;
+    padding: 8px 10px;
+    border-radius: 4px;
+    background: rgb(224, 224, 224);
+}
+.field_box_login input::placeholder {
+    color: #626262;
+}
+.button_box_login {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+#error_message {
+    color: #F00;
+    font: 15px 'Oxygen';
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.button_box_login button {
+    background-color: #0f4c75;
+    color: #FFF;
+    padding: 8px 12px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    cursor: pointer;
+}
